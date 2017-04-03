@@ -1,0 +1,65 @@
+<!--dynamic.wxml-->
+<view class="container">
+    <view class="question" bindtap="toQuestion">
+        <text class="question-title">发福利，发福利，发福利 重要的事情说三遍，美美哒~！</text>
+    </view>
+    <view class="dynamicer-wrp">
+        <view class="bg-half"></view>
+        <view class="dynamicer flex-wrp">
+            <view class="avatar flex-item">
+                <image src="../../images/icon1.jpg"></image>
+            </view>
+            <view class="dynamicer-info flex-item">
+                <text class="dynamicer-name">Rebecca</text>
+                <text class="dynamicer-des">代码小仙女</text>
+            </view>
+            <view class="follow flex-item">
+                <text>十 关注</text>
+            </view>
+        </view>
+    </view>
+    <view class="dynamic-content">
+        <text> 妹纸1 </text>
+        <image src="../../images/index/icon1.jpg"></image>
+        <text> 妹纸2 </text>
+        <image src="../../images/index/icon2.jpg"></image>
+        <text> 妹纸3 </text>
+        <image src="../../images/index/icon3.jpg"></image>
+        <text> 妹纸4 </text>
+        <image src="../../images/index/icon4.jpg"></image>
+        <text> 妹纸5 </text>
+        <image src="../../images/index/icon5.jpg"></image>
+        <text> 妹纸6 </text>
+        <image src="../../images/index/icon6.jpg"></image>
+        <text> 妹纸7 </text>
+        <image src="../../images/index/icon7.jpg"></image>
+        <text> 妹纸8 </text>
+        <image src="../../images/index/icon8.jpg"></image>
+        <text> 妹纸9 </text>
+        <image src="../../images/index/icon9.jpg"></image>
+    </view>
+
+    <view class="dynamic-footer flex-wrp">
+        <view class="operation-wrp flex-item">
+            <view class="operation flex-wrp flex-tab">
+                <view class="operation-btn flex-item">
+                    <image src="../../images/heart2.png"></image>
+                    <text>感谢</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../images/star2.png"></image>
+                    <text>收藏</text>
+                </view>
+                <view class="operation-btn flex-item">
+                    <image src="../../images/comment.png"></image>
+                    <text>302</text>
+                </view>
+
+            </view>
+        </view>
+
+
+
+    </view>
+</view>
+

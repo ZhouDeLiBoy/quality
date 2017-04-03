@@ -1,0 +1,64 @@
+
+.head{
+  width: 100%;
+  height: 150px;
+  background: -webkit-gradient(linear,0 0,0 100%,from(#d4237a),to(#6AC1FC));
+  background: -moz-linear-gradient(#d4237a, #6AC1FC);
+  background: -o-linear-gradient(#d4237a, #6AC1FC);
+  background: linear-gradient(top center, #d4237a, #6AC1FC);
+  text-align: center;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin-top: 30px;
+  border-radius: 50%;
+}
+.userinfo-nickname {
+  margin-top: 5px;
+  color: #ffffff;
+}
+.usermotto {
+  margin-top: 200px;
+}
+
+.line{
+    height: 10rpx;
+    width:100%;
+    background-color: #F8F9FA;
+}
+.message_list{
+  width: 100%;
+  height: 40px;
+}
+.item {
+    box-sizing: border-box;
+    font-size: 14px;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(255,255,255,.5);
+    display: flex;
+    border-radius: 5px;
+}
+.icon {
+    width: 26px;
+    height: 26px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.tree_image_right{
+    position: absolute;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+}
+.text {
+    line-height: 40px;
+    margin-left: 5px;
+}

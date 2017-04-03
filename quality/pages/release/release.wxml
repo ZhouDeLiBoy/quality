@@ -1,0 +1,13 @@
+<!--logs.wxml-->
+<view class="container">
+  <view class="content">
+    <view class="section">
+       <textarea placeholder="说点什么吧" focus="{{focus}}" class="textarea" maxlength="500" />
+        <block wx:for="{{imageList}}" wx:for-item="image">
+              <image src="{{image}}" class="add_icon"></image>
+        </block>
+       <image class="add_icon" src="../../images/release/add.png" bindtap="chooseimage"></image>
+    </view>
+    <button bindtap="onRelease" class="btn_release" >发布动态</button>
+  </view>
+</view>

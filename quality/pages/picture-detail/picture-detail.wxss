@@ -1,0 +1,19 @@
+/**picture-detail.wxss**/
+.section{
+    width: 100%;
+    margin: 0px auto;
+    padding: 0 10px;
+}
+.discover-image {
+    display: flex;
+    margin-bottom: 10px;
+}
+.latest-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1px;
+}
+.latest-image {
+    display: flex;
+    background: #eee;
+}

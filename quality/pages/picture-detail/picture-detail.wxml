@@ -1,0 +1,26 @@
+<!--pictrue-detail.wxml-->
+<scroll-view class="hot-item-container" style="height: {{systemInfo.windowHeight}}px;"
+  scroll-y="true" bindscrolltolower="pullUpLoad">
+<view class="container">
+  <view class="section">
+  <block wx:for="{{latest_list}}" wx:for-index="idx">
+    <view wx:if="{{idx%3===0}}" class="latest-item">
+      <image src="{{latest_list[idx].feed_source_img}}" class="latest-image"
+        data-row-id="{{latest_list[idx].row_id}}" bindtap="onItemClick"
+        style="width:{{(systemInfo.windowWidth-2)/3}}px;height:{{(systemInfo.windowWidth-2)/3}}px;" mode="scaleToFill">
+      </image>
+      <image src="{{latest_list[idx+1].feed_source_img}}" class="latest-image"
+        data-row-id="{{latest_list[idx+1].row_id}}" bindtap="onItemClick"
+        style="width:{{(systemInfo.windowWidth-2)/3}}px;height:{{(systemInfo.windowWidth-2)/3}}px;" mode="scaleToFill">
+      </image>
+      <image src="{{latest_list[idx+2].feed_source_img}}" class="latest-image"
+        data-row-id="{{latest_list[idx+2].row_id}}" bindtap="onItemClick"
+        style="width:{{(systemInfo.windowWidth-2)/3}}px;height:{{(systemInfo.windowWidth-2)/3}}px;" mode="scaleToFill">
+      </image>
+    </view>
+  </block>
+  </view>
+</view>
+</scroll-view>
+
+

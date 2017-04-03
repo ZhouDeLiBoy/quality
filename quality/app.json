@@ -1,0 +1,37 @@
+{
+  "tabBar": {  
+   "color": "#515151",  
+   "selectedColor": "#d4237a",  
+   "borderStyle":"white",
+   "list": [{
+     "selectedIconPath": "images/bar/home_selected.png",  
+     "iconPath": "images/bar/home.png",  
+     "pagePath": "pages/index/index",  
+     "text": "首页"
+   }, {
+     "selectedIconPath": "images/bar/release_selected.png",  
+     "iconPath": "images/bar/release.png",
+     "pagePath": "pages/release/release",  
+     "text": "发布"
+   }, {
+     "selectedIconPath": "images/bar/user_selected.png",  
+     "iconPath": "images/bar/user.png",  
+     "pagePath": "pages/user/user",  
+     "text": "我的"
+   }]
+  },
+  "pages":[
+    "pages/index/index",
+    "pages/release/release",
+    "pages/user/user",
+    "pages/logs/logs",
+    "pages/picture-detail/picture-detail",
+    "pages/dynamic-detail/dynamic-detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "优质",
+    "navigationBarTextStyle":"black"
+  }
+}
